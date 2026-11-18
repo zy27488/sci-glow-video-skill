@@ -1,0 +1,31 @@
+# 音频、视频与大体积字体文件（绝不提交版权音乐与二进制缓存）
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.otf
+*.ttf
+*.woff
+*.woff2
+
+# 运行环境与渲染产物
+__pycache__/
+*.py[cod]
+.venv/
+.uv-cache/
+node_modules/
+work/
+out/
+film/fonts/
+
+# 系统与临时文件
+.DS_Store
+Thumbs.db
+*.tmp.json
+*.part
